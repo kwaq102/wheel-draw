@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+.wrapper {
+    position: relative;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.arrow {
+    position: absolute;
+    height: 100px;
+    top: -10px ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.circle {
+    margin: 100px auto;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    transform: rotate(10deg);
+    transition: transform 3s ease-out;
+}
+
+.circle img {
+    width: 100%;
+}
+
+.name {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 2px black;
+}
+
+.wrap-btn {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-draw {
+       width: 200px;
+    padding:20px;
+    background-color: hotpink;
+    border: 2px solid rgb(74, 0, 37);
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-draw:hover {
+    background-color: rgb(199, 24, 112);
+    transition: .5s;
+}
+
+
+.kamil {
+    top: 70px;
+    left: 305px;
+    transform: rotate(115deg)
+}
+.ewelina {
+    top: 110px;
+    left: 335px;
+    transform: rotate(-230deg);
+}
+
+.michalina {
+    top: 155px;
+    left: 355px;
+    transform: rotate(-210deg);
+}
+
+.lukasz {
+    top: 200px;
+    left: 410px;
+    transform: rotate(165deg);
+}
+.mariusz {
+    top: 260px;
+    left: 410px;
+    transform: rotate(-175deg)
+}
+
+.mikolaj-sz {
+    top: 310px;
+    left: 365px;
+    transform: rotate(-160deg);
+}
+
+.pawel {
+    top: 365px;
+    left: 370px;
+    transform: rotate(222deg);
+}
+
+.przemek {
+    top: 395px;
+    left: 310px;
+    transform: rotate(-125deg);
+}
+.aniela {
+    top: 432px;
+    left: 275px;
+    transform: rotate(-110deg);
+}
+
+.ania {
+    top: 443px;
+    left: 230px;
+    transform: rotate(267deg);
+}
+
+.agata {
+    top: 433px;
+    left: 165px;
+    transform: rotate(-73deg)
+}
+
+.mikolaj-w {
+    top: 395px;
+    left: 100px;
+    transform: rotate(-60deg);
+}
+
+.piotr {
+    top: 370px;
+    left: 70px;
+    transform: rotate(320deg)
+}
+
+.karolina {
+    top: 311px;
+    left: 35px;
+    transform: rotate(335deg)
+}
+
+
+.karol {
+    top: 45px;
+    left: 250px;
+    transform: rotate(100deg);
+}
+
+.asia {
+    top: 45px;
+    left: 200px;
+    transform: rotate(77deg);
+}
+
+.jarek {
+    top: 60px;
+    left: 135px;
+    transform: rotate(65deg);
+}
+
+.kinga {
+    top: 95px;
+    left: 90px;
+    transform: rotate(50deg);
+}
+
+.monika {
+    top: 145px;
+    left: 50px;
+    transform: rotate(30deg);
+}
+
+.szymon {
+    top: 199px;
+    left: 30px;
+    transform: rotate(10deg);
+}
+
+.bartosz {
+    top: 252px;
+    left: 22px;
+    transform: rotate(-7deg);
+}
